@@ -2,7 +2,7 @@ import React from "react";
 import {AiOutlineInstagram, AiFillFacebook, AiFillYoutube} from 'react-icons/ai'
 const Footer = () => {
   return (
-    <footer className="w-full p-3">
+    <footer className="w-full p-3 mt-3">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between w-full">
           <div className="flex items-center gap-3">

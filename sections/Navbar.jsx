@@ -16,10 +16,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full sticky h-20 z-[999] bg-primary">
+    <nav className="w-full sticky top-0 h-20 z-[999] bg-primary">
       <div className="container mx-auto w-full h-full">
         <div className="flex items-center justify-between w-full h-full px-4 lg:px-0">
-          <h3>SRL Clinic</h3>
+          <Link href="/">
+            <h3>SRL CLINIC</h3>
+          </Link>
           <div className="hidden lg:flex items-center space-x-5">
             {menuList.map((menu, index) => (
               <div key={index} className="text-xl">
