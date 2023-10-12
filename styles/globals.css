@@ -23,5 +23,9 @@
   span{
     @apply text-span
   }
+
+  p{
+    @apply text-center lg:text-start
+  }
 }
 

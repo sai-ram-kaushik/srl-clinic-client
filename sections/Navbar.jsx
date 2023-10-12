@@ -30,9 +30,11 @@ const Navbar = () => {
                 </Link>
               </div>
             ))}
-            <button className="p-3 text-lg w-[108px] border border-background rounded-lg hover:bg-background hover:text-primary duration-200 ease-in-out">
-              Login
-            </button>
+            <Link href="/login">
+              <button className="p-3 text-lg w-[108px] border border-background rounded-lg hover:bg-background hover:text-primary duration-200 ease-in-out">
+                Login
+              </button>
+            </Link>
           </div>
 
           <div
@@ -63,9 +65,11 @@ const Navbar = () => {
               </Link>
             </ul>
           ))}
-          <button className="p-3 text-lg w-[108px] border border-primary rounded-lg text-primary hover:bg-background hover:text-primary duration-200 ease-in-out">
-            Login
-          </button>
+          <Link href="/login" onClick={handleChange}>
+            <button className="p-3 text-lg w-[108px] border border-primary rounded-lg text-primary hover:bg-background hover:text-primary duration-200 ease-in-out">
+              Login
+            </button>
+          </Link>
         </div>
       </div>
     </nav>

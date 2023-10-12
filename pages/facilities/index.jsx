@@ -182,7 +182,7 @@ const Facilities = () => {
         </motion.div>
 
         <div className="flex items-center justify-center mt-10">
-          <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-2 text-primary">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-2 text-span">
             New Born Baby Care
           </h3>
         </div>

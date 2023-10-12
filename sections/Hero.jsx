@@ -31,7 +31,7 @@ const Hero = () => {
           </div>
 
           <div>
-            <Image src={main} alt="hero_image" className="w-[1285.36px]" />
+            <Image src={main} priority alt="hero_image" className="w-[1285.36px]" />
           </div>
         </div>
       </div>
